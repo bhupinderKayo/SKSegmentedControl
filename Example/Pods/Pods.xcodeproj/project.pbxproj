@@ -104,6 +104,7 @@
 			children = (
 				EF9BD0042031A48A004EC8C0 /* SKSegmentedControl.h */,
 				EF9BD0052031A48A004EC8C0 /* SKSegmentedControl.m */,
+				EF9BD0082031B4DF004EC8C0 /* Classes */,
 			);
 			path = SKSegmentedControl;
 			sourceTree = "<group>";
@@ -173,6 +174,13 @@
 			);
 			name = "Pods-SKSegmentedControl_Tests";
 			path = "Target Support Files/Pods-SKSegmentedControl_Tests";
+			sourceTree = "<group>";
+		};
+		EF9BD0082031B4DF004EC8C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

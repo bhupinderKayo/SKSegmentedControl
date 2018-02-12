@@ -30,7 +30,7 @@ SKSegmentedControl is customized segmented control with scroll.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SKSegmentedControl/Classes/**/*'
+  s.source_files = 'SKSegmentedControl/**/*'
   
   # s.resource_bundles = {
   #   'SKSegmentedControl' => ['SKSegmentedControl/Assets/*.png']
