@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 SKSegmentedControl is customized segmented control with scroll.
+
                        DESC
 
   s.homepage         = 'https://github.com/bhupinderKayo/SKSegmentedControl'
@@ -26,7 +27,6 @@ SKSegmentedControl is customized segmented control with scroll.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bhupinderKayo' => 'bhupinder.singh@kayosys.com' }
   s.source           = { :git => 'https://github.com/bhupinderKayo/SKSegmentedControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
