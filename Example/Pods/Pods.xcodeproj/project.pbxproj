@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180B2DFF55ED906FD045DC7BF8DA912D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3FDDCEA5FBE90F9BF6B5D068415D03AF /* Pods-SKSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696587A858F96B4AF2EF01756AE0017D /* Pods-SKSegmentedControl_Tests-dummy.m */; };
+		450527A6DEBF10658DAF64077813E126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		79A2208C62F1E91E8A8F2B37D4D372B9 /* Pods-SKSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CF82385FD91AEC879D1A5F35D49AF4 /* Pods-SKSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C200EC99A022DF80A542367848C007 /* SKSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F52745F597E6EF0589ED0C176DBABE /* SKSegmentedControl-dummy.m */; };
+		C842B4C0A428876A1C3DFF71A60E9986 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */; };
+		E1B9D1CC8124201F85D69CD4D0567A2D /* SKSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0A23152C6028485E88F144E29E8DC /* SKSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6075AC1808F3D107759E5213700ADCAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C98C398B5BBA16CEA3422F3ADA4A1CD;
+			remoteInfo = SKSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410E2257ED57ACF29F5CDAE7A77536BC /* Pods-SKSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		41367F787CE46C6B36621F87FBB5A6D8 /* Pods-SKSegmentedControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKSegmentedControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		48CF82385FD91AEC879D1A5F35D49AF4 /* Pods-SKSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4FE0A23152C6028485E88F144E29E8DC /* SKSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		4FF59D3708C20721BBF88FCE02023790 /* Pods-SKSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		696587A858F96B4AF2EF01756AE0017D /* Pods-SKSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D8C9D0C6388FBD6728011F0059D0527 /* SKSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		91BA10617704DBBB068C04514935A701 /* SKSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		9324BFED1F92D04354811553EE12AB50 /* Pods-SKSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95042F315C3EE27AE57E577467C1C20C /* Pods-SKSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		974DACEE7B3A2CF37A4C5645C51AE1A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F52745F597E6EF0589ED0C176DBABE /* SKSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		CAEB35CD09DCE9B4B6CF7C5040F7BB6F /* SKSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKSegmentedControl.framework; path = SKSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29BDB84A7265D4AE240931534534222 /* Pods-SKSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		D8F89AE933E87A752387D646D392EED3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B52E0C34620647DD6A7B91F14DBDF6 /* SKSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKSegmentedControl.modulemap; sourceTree = "<group>"; };
+		F2CCAE1D4435B84262A99011973C7AD2 /* Pods_SKSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKSegmentedControl_Tests.framework; path = "Pods-SKSegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773A6376F6B906B027991F783CD7B99 /* Pods-SKSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3F964E0CB373FB5D0AD1F90DB6B506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450527A6DEBF10658DAF64077813E126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE014BBDB824A8F31555818B08C1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B2DFF55ED906FD045DC7BF8DA912D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222D448E1550A488487CBD6A76D16BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCAE1D4435B84262A99011973C7AD2 /* Pods_SKSegmentedControl_Tests.framework */,
+				CAEB35CD09DCE9B4B6CF7C5040F7BB6F /* SKSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0F9B2C9F46176A1F09EDE1EEDA7C2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4512B09FBC598ECC75DC7AA0ED18E9 /* SKSegmentedControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F4512B09FBC598ECC75DC7AA0ED18E9 /* SKSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6AF58278E1F73F9A063734EF688CA005 /* SKSegmentedControl */,
+				B780B053FF4E7C439C05D921BA39EBAE /* Support Files */,
+			);
+			name = SKSegmentedControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6AF58278E1F73F9A063734EF688CA005 /* SKSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				F7603C33D8AEBC266DB0F5DB726B66FB /* Classes */,
+			);
+			name = SKSegmentedControl;
+			path = SKSegmentedControl;
+			sourceTree = "<group>";
+		};
+		79894C87C2ECDC1DDA23CA2D4445301D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3C3121282B286A1E871509E0F55003 /* Pods-SKSegmentedControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5E0F9B2C9F46176A1F09EDE1EEDA7C2C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				222D448E1550A488487CBD6A76D16BBF /* Products */,
+				79894C87C2ECDC1DDA23CA2D4445301D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B780B053FF4E7C439C05D921BA39EBAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				974DACEE7B3A2CF37A4C5645C51AE1A1 /* Info.plist */,
+				E1B52E0C34620647DD6A7B91F14DBDF6 /* SKSegmentedControl.modulemap */,
+				91BA10617704DBBB068C04514935A701 /* SKSegmentedControl.xcconfig */,
+				A6F52745F597E6EF0589ED0C176DBABE /* SKSegmentedControl-dummy.m */,
+				7D8C9D0C6388FBD6728011F0059D0527 /* SKSegmentedControl-prefix.pch */,
+				4FE0A23152C6028485E88F144E29E8DC /* SKSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKSegmentedControl";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA3C3121282B286A1E871509E0F55003 /* Pods-SKSegmentedControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F89AE933E87A752387D646D392EED3 /* Info.plist */,
+				D29BDB84A7265D4AE240931534534222 /* Pods-SKSegmentedControl_Tests.modulemap */,
+				95042F315C3EE27AE57E577467C1C20C /* Pods-SKSegmentedControl_Tests-acknowledgements.markdown */,
+				9324BFED1F92D04354811553EE12AB50 /* Pods-SKSegmentedControl_Tests-acknowledgements.plist */,
+				696587A858F96B4AF2EF01756AE0017D /* Pods-SKSegmentedControl_Tests-dummy.m */,
+				410E2257ED57ACF29F5CDAE7A77536BC /* Pods-SKSegmentedControl_Tests-frameworks.sh */,
+				41367F787CE46C6B36621F87FBB5A6D8 /* Pods-SKSegmentedControl_Tests-resources.sh */,
+				48CF82385FD91AEC879D1A5F35D49AF4 /* Pods-SKSegmentedControl_Tests-umbrella.h */,
+				F773A6376F6B906B027991F783CD7B99 /* Pods-SKSegmentedControl_Tests.debug.xcconfig */,
+				4FF59D3708C20721BBF88FCE02023790 /* Pods-SKSegmentedControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKSegmentedControl_Tests";
+			path = "Target Support Files/Pods-SKSegmentedControl_Tests";
+			sourceTree = "<group>";
+		};
+		F7603C33D8AEBC266DB0F5DB726B66FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50E57DAB21962D763A6452D887CA9CEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A2208C62F1E91E8A8F2B37D4D372B9 /* Pods-SKSegmentedControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EB4FB3D6A62494F858F0F4E313ECA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B9D1CC8124201F85D69CD4D0567A2D /* SKSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C98C398B5BBA16CEA3422F3ADA4A1CD /* SKSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23588A3FBC18FB20666285B9C48C137 /* Build configuration list for PBXNativeTarget "SKSegmentedControl" */;
+			buildPhases = (
+				405954D242741870F63FC723DDF06BD9 /* Sources */,
+				1B3F964E0CB373FB5D0AD1F90DB6B506 /* Frameworks */,
+				95EB4FB3D6A62494F858F0F4E313ECA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSegmentedControl;
+			productName = SKSegmentedControl;
+			productReference = CAEB35CD09DCE9B4B6CF7C5040F7BB6F /* SKSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD6C7139FBFBB6E1684889B455C13B2D /* Pods-SKSegmentedControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E47EC8C2B946DD6095ECB58BE740670 /* Build configuration list for PBXNativeTarget "Pods-SKSegmentedControl_Tests" */;
+			buildPhases = (
+				F3B1E74E6C2DBD4A3575A078C09609CD /* Sources */,
+				76DE014BBDB824A8F31555818B08C1E2 /* Frameworks */,
+				50E57DAB21962D763A6452D887CA9CEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C3DDB59E843090268E763BE4AC6CF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKSegmentedControl_Tests";
+			productName = "Pods-SKSegmentedControl_Tests";
+			productReference = F2CCAE1D4435B84262A99011973C7AD2 /* Pods_SKSegmentedControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 222D448E1550A488487CBD6A76D16BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6C7139FBFBB6E1684889B455C13B2D /* Pods-SKSegmentedControl_Tests */,
+				9C98C398B5BBA16CEA3422F3ADA4A1CD /* SKSegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405954D242741870F63FC723DDF06BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C842B4C0A428876A1C3DFF71A60E9986 /* ReplaceMe.m in Sources */,
+				B4C200EC99A022DF80A542367848C007 /* SKSegmentedControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B1E74E6C2DBD4A3575A078C09609CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDCEA5FBE90F9BF6B5D068415D03AF /* Pods-SKSegmentedControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C3DDB59E843090268E763BE4AC6CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKSegmentedControl;
+			target = 9C98C398B5BBA16CEA3422F3ADA4A1CD /* SKSegmentedControl */;
+			targetProxy = 6075AC1808F3D107759E5213700ADCAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00212CA01660EEC8B1FB3CBECF6B289E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF59D3708C20721BBF88FCE02023790 /* Pods-SKSegmentedControl_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKSegmentedControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKSegmentedControl_Tests/Pods-SKSegmentedControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKSegmentedControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D917C7748A23BDE427A768228248143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F773A6376F6B906B027991F783CD7B99 /* Pods-SKSegmentedControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKSegmentedControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKSegmentedControl_Tests/Pods-SKSegmentedControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKSegmentedControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43CF5A8A2726776558EAA3FE991FCB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA10617704DBBB068C04514935A701 /* SKSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKSegmentedControl/SKSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKSegmentedControl/SKSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51B6FBDE996980746B770B1C0814CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BA10617704DBBB068C04514935A701 /* SKSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKSegmentedControl/SKSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKSegmentedControl/SKSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E47EC8C2B946DD6095ECB58BE740670 /* Build configuration list for PBXNativeTarget "Pods-SKSegmentedControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D917C7748A23BDE427A768228248143 /* Debug */,
+				00212CA01660EEC8B1FB3CBECF6B289E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23588A3FBC18FB20666285B9C48C137 /* Build configuration list for PBXNativeTarget "SKSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B6FBDE996980746B770B1C0814CC7B /* Debug */,
+				43CF5A8A2726776558EAA3FE991FCB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

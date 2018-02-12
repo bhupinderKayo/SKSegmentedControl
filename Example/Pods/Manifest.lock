@@ -1,0 +1,16 @@
+PODS:
+  - SKSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - SKSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  SKSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SKSegmentedControl: 3bcf60d01141ca573d433407f87377bb862ccef1
+
+PODFILE CHECKSUM: 444321aff8a13ceb30c24df2a8d07d4ccf97b15a
+
+COCOAPODS: 1.2.1

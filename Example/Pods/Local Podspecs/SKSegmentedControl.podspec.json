@@ -1,0 +1,22 @@
+{
+  "name": "SKSegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of SKSegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bhupinderKayo/SKSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bhupinderKayo": "bhupinder00464@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bhupinderKayo/SKSegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKSegmentedControl/Classes/**/*"
+}

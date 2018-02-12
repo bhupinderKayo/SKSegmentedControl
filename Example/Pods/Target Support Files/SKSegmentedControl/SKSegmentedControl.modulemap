@@ -1,0 +1,6 @@
+framework module SKSegmentedControl {
+  umbrella header "SKSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
