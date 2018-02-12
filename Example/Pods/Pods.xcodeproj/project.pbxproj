@@ -12,8 +12,9 @@
 		450527A6DEBF10658DAF64077813E126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		79A2208C62F1E91E8A8F2B37D4D372B9 /* Pods-SKSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CF82385FD91AEC879D1A5F35D49AF4 /* Pods-SKSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4C200EC99A022DF80A542367848C007 /* SKSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F52745F597E6EF0589ED0C176DBABE /* SKSegmentedControl-dummy.m */; };
-		C842B4C0A428876A1C3DFF71A60E9986 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */; };
 		E1B9D1CC8124201F85D69CD4D0567A2D /* SKSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0A23152C6028485E88F144E29E8DC /* SKSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9BD0062031A48A004EC8C0 /* SKSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BD0042031A48A004EC8C0 /* SKSegmentedControl.h */; };
+		EF9BD0072031A48A004EC8C0 /* SKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD0052031A48A004EC8C0 /* SKSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +38,17 @@
 		7D8C9D0C6388FBD6728011F0059D0527 /* SKSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		91BA10617704DBBB068C04514935A701 /* SKSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSegmentedControl.xcconfig; sourceTree = "<group>"; };
 		9324BFED1F92D04354811553EE12AB50 /* Pods-SKSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95042F315C3EE27AE57E577467C1C20C /* Pods-SKSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		974DACEE7B3A2CF37A4C5645C51AE1A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F52745F597E6EF0589ED0C176DBABE /* SKSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSegmentedControl-dummy.m"; sourceTree = "<group>"; };
-		BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		CAEB35CD09DCE9B4B6CF7C5040F7BB6F /* SKSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKSegmentedControl.framework; path = SKSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D29BDB84A7265D4AE240931534534222 /* Pods-SKSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		CAEB35CD09DCE9B4B6CF7C5040F7BB6F /* SKSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29BDB84A7265D4AE240931534534222 /* Pods-SKSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SKSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
 		D8F89AE933E87A752387D646D392EED3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1B52E0C34620647DD6A7B91F14DBDF6 /* SKSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKSegmentedControl.modulemap; sourceTree = "<group>"; };
-		F2CCAE1D4435B84262A99011973C7AD2 /* Pods_SKSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKSegmentedControl_Tests.framework; path = "Pods-SKSegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B52E0C34620647DD6A7B91F14DBDF6 /* SKSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SKSegmentedControl.modulemap; sourceTree = "<group>"; };
+		EF9BD0042031A48A004EC8C0 /* SKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSegmentedControl.h; sourceTree = "<group>"; };
+		EF9BD0052031A48A004EC8C0 /* SKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSegmentedControl.m; sourceTree = "<group>"; };
+		F2CCAE1D4435B84262A99011973C7AD2 /* Pods_SKSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F773A6376F6B906B027991F783CD7B99 /* Pods-SKSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,9 +102,9 @@
 		6AF58278E1F73F9A063734EF688CA005 /* SKSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				F7603C33D8AEBC266DB0F5DB726B66FB /* Classes */,
+				EF9BD0042031A48A004EC8C0 /* SKSegmentedControl.h */,
+				EF9BD0052031A48A004EC8C0 /* SKSegmentedControl.m */,
 			);
-			name = SKSegmentedControl;
 			path = SKSegmentedControl;
 			sourceTree = "<group>";
 		};
@@ -173,15 +175,6 @@
 			path = "Target Support Files/Pods-SKSegmentedControl_Tests";
 			sourceTree = "<group>";
 		};
-		F7603C33D8AEBC266DB0F5DB726B66FB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BBDFF63DC5A00D36CB2D9D04C7D07A52 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -189,6 +182,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9BD0062031A48A004EC8C0 /* SKSegmentedControl.h in Headers */,
 				79A2208C62F1E91E8A8F2B37D4D372B9 /* Pods-SKSegmentedControl_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C842B4C0A428876A1C3DFF71A60E9986 /* ReplaceMe.m in Sources */,
 				B4C200EC99A022DF80A542367848C007 /* SKSegmentedControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDDCEA5FBE90F9BF6B5D068415D03AF /* Pods-SKSegmentedControl_Tests-dummy.m in Sources */,
+				EF9BD0072031A48A004EC8C0 /* SKSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
