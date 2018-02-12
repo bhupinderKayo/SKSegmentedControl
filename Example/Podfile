@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SKSegmentedControl_Tests' do
+  pod 'SKSegmentedControl', :path => '../'
+  
+  
+end
